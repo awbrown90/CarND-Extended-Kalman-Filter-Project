@@ -46,11 +46,36 @@ Also additonal data can be generated from the included ekf_data_generator.m file
 
 As an experiment RMSE values were compared when using both lidar/radar or only one or the other.
 
-RMSE Lidar ONLY      RMSE Radar ONLY      RMSE Lidar+Radar
-.112                 .182                 .151
-.142                 .212                 .117
-.457                 .387                 .41
-.388                 .336                 .33
+RMSE Lidar ONLY
+
+.112 
+
+.142 
+
+.457
+
+.388                 
+
+RMSE Radar ONLY
+
+.182
+
+.212
+
+.387
+
+.336
+
+RMSE Lidar+Radar
+
+.151
+
+.117
+
+.41
+
+.33
+
 ---
 
 ## Dependencies
