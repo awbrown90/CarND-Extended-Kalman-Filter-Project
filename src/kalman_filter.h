@@ -59,7 +59,8 @@ public:
    * Updates the state and
    * @param z The measurement at k+1
    */
-  void Update(const VectorXd &z);
+  void UpdateLaser(const VectorXd &z);
+  void UpdateRadar(const VectorXd &z, const VectorXd &z_pred);
 
 };
 

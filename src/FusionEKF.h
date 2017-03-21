@@ -43,6 +43,10 @@ private:
   MatrixXd R_radar_;
   MatrixXd H_laser_;
   MatrixXd Hj_;
+
+  //acceleration noise components
+  float noise_ax;
+  float noise_ay;
 };
 
 #endif /* FusionEKF_H_ */
