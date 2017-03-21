@@ -6,21 +6,35 @@ In this project an Extended Kalman Filter was used to track various objects give
 ## EKF Performance on data
 #### sample-laser-radar-measurement-data-1.txt
 Accuracy - RMSE:
+
 0.070975
+
 0.0656733
+
 0.564486
+
 0.551459
+
 #### sample-laser-radar-measurement-data-2.txt
 Accuracy - RMSE:
+
 0.18372
+
 0.189987
+
 0.473033
+
 0.789295
+
 #### Extra Data Generated From Matlab
 Accuracy - RMSE:
+
 0.0674286
+
 0.0800124
+
 0.22187
+
 0.254647
 
 ### Visuals
