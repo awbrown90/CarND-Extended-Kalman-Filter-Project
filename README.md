@@ -1,6 +1,42 @@
 # Extended Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
+In this project an Extended Kalman Filter was used to track various objects given noisy lidar and radar measurement data. The EKF was able to succesfully fuse the two different kinds of measurements together even though lidar was in cartesian coordinates and radar was in polar. Although radar was not as accurate spatially as lidar, it could directly measure the velocity of objects. 
+
+## EKF Performance on data
+#### sample-laser-radar-measurement-data-1.txt
+Accuracy - RMSE:
+0.070975
+0.0656733
+0.564486
+0.551459
+#### sample-laser-radar-measurement-data-2.txt
+Accuracy - RMSE:
+0.18372
+0.189987
+0.473033
+0.789295
+#### Extra Data Generated From Matlab
+Accuracy - RMSE:
+0.0674286
+0.0800124
+0.22187
+0.254647
+
+### Visuals
+
+All three data samples can be visually inspected by using the included ekf-visualization jupyter notebook file.
+Also additonal data can be generated from the included ekf_data_generator.m file.
+
+### Exploration
+
+As an experiment RMSE values were compared when using both lidar/radar or only one or the other.
+
+RMSE Lidar ONLY      RMSE Radar ONLY      RMSE Lidar+Radar
+.112                 .182                 .151
+.142                 .212                 .117
+.457                 .387                 .41
+.388                 .336                 .33
 ---
 
 ## Dependencies
